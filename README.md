@@ -13,10 +13,25 @@ https://scotch.io/tutorials/creating-a-single-page-todo-app-with-node-and-angula
 
 ## File Structure
 
-<code>
-   <p>- public            <!-- holds all our files for our frontend angular application --> </p>
-    ----- core.js       <!-- all angular code for our app --> <br>
-    ----- index.html    <!-- main view --> <br>
-    - package.json      <!-- npm configuration to install dependencies/modules --> <br>
-    - server.js         <!-- Node configuration --> <br>
-</code>
+    - public             holds all our files for our frontend angular application 
+    ----- core.js        all angular code for our app
+    ----- index.html     main view
+    - package.json       npm configuration to install dependencies/modules
+    - server.js          Node configuration 
+
+## Installing Modules
+
+>npm i express mongoose morgan body-parser method-override
+
+## Node App 
+### Main file: server.js
+
+<ul>
+  <li>Configure our application</li>
+  <li>Connect to our database</li>
+  <li>Create our Mongoose models</li>
+  <li>Define routes for our RESTful API</li>
+  <li>Define routes for our frontend Angular application</li>
+  <li>Set the app to listen on a port so we can view it in our browser</li>
+</ul>
+
