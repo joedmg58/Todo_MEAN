@@ -14,9 +14,9 @@ https://scotch.io/tutorials/creating-a-single-page-todo-app-with-node-and-angula
 ## File Structure
 
 <code>
-   - public            <!-- holds all our files for our frontend angular application -->
-    ----- core.js       <!-- all angular code for our app -->
-    ----- index.html    <!-- main view -->
-    - package.json      <!-- npm configuration to install dependencies/modules -->
-    - server.js         <!-- Node configuration -->
+   <p>- public            <!-- holds all our files for our frontend angular application --> </p>
+    ----- core.js       <!-- all angular code for our app --> <br>
+    ----- index.html    <!-- main view --> <br>
+    - package.json      <!-- npm configuration to install dependencies/modules --> <br>
+    - server.js         <!-- Node configuration --> <br>
 </code>
